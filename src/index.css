@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Custom utilities */
+.gradient-hero {
+  background: linear-gradient(135deg, var(--tw-gradient-from), var(--tw-gradient-to));
+}
+
+.transition-smooth {
+  transition: all 200ms cubic-bezier(.2,.8,.2,1);
+}
