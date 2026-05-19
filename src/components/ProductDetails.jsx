@@ -49,10 +49,10 @@ export default function ProductDetails({ product, onBack }) {
           </div>
 
           <div className="mt-auto space-y-3 pt-6 border-t border-gray-200">
-            <button className="w-full py-3 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold rounded-full transition-smooth">
+            <button onClick={() => alert(`Added ${product.name} to your cart!`)} className="w-full py-3 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold rounded-full transition-smooth">
               Add to Cart
             </button>
-            <button className="w-full py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-full transition-smooth">
+            <button onClick={() => alert(`Proceeding to checkout for ${product.name}`)} className="w-full py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-full transition-smooth">
               Buy Now
             </button>
           </div>

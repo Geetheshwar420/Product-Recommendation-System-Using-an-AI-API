@@ -6,7 +6,7 @@ const products = [
     price: 449,
     rating: 4.5,
     description: 'Affordable 5G smartphone with excellent camera and clean Android experience.',
-    image: 'https://images.unsplash.com/photo-1598327105666-5b89351cb315?auto=format&fit=crop&w=400&q=80'
+    image: 'https://images.unsplash.com/photo-1546054454-aa26e2b734c7?auto=format&fit=crop&w=400&q=80'
   },
   {
     id: 'p2',
@@ -106,6 +106,78 @@ const products = [
     rating: 4.7,
     description: 'Lightweight tablet with M1 performance and great ecosystem.',
     image: 'https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=400&q=80'
+  },
+  {
+    id: 'p13',
+    name: 'Logitech MX Master 3S',
+    category: 'Accessories',
+    price: 99,
+    rating: 4.8,
+    description: 'Ergonomic wireless mouse with ultra-fast scrolling and customizable buttons.',
+    image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=400&q=80'
+  },
+  {
+    id: 'p14',
+    name: 'Keychron K2 Mechanical Keyboard',
+    category: 'Accessories',
+    price: 89,
+    rating: 4.6,
+    description: 'Compact wireless mechanical keyboard perfect for Mac and Windows setups.',
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=400&q=80'
+  },
+  {
+    id: 'p15',
+    name: 'Apple Watch Series 9',
+    category: 'Smartwatches',
+    price: 399,
+    rating: 4.9,
+    description: 'Advanced smartwatch with health tracking, ECG, and bright display.',
+    image: 'https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?auto=format&fit=crop&w=400&q=80'
+  },
+  {
+    id: 'p16',
+    name: 'Garmin Fenix 7',
+    category: 'Smartwatches',
+    price: 699,
+    rating: 4.7,
+    description: 'Rugged multisport GPS watch with solar charging capabilities.',
+    image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=400&q=80'
+  },
+  {
+    id: 'p17',
+    name: 'Samsung Odyssey G7 32"',
+    category: 'Monitors',
+    price: 699,
+    rating: 4.5,
+    description: 'Curved gaming monitor with 240Hz refresh rate and 1ms response time.',
+    image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=400&q=80'
+  },
+  {
+    id: 'p18',
+    name: 'LG UltraFine 4K',
+    category: 'Monitors',
+    price: 499,
+    rating: 4.6,
+    description: 'Stunning 4K display designed specifically for creative professionals.',
+    image: 'https://images.unsplash.com/photo-1586210579191-33b45e38fa2c?auto=format&fit=crop&w=400&q=80'
+  },
+  {
+    id: 'p19',
+    name: 'Rode PodMic',
+    category: 'Audio',
+    price: 99,
+    rating: 4.7,
+    description: 'Broadcast-grade dynamic microphone perfect for podcasting and streaming.',
+    image: 'https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&w=400&q=80'
+  },
+  {
+    id: 'p20',
+    name: 'Elgato Stream Deck MK.2',
+    category: 'Accessories',
+    price: 149,
+    rating: 4.8,
+    description: 'Customizable studio controller with 15 macro keys to boost productivity.',
+    image: 'https://images.unsplash.com/photo-1616423641402-8084b423985d?auto=format&fit=crop&w=400&q=80'
   }
 ]
 
