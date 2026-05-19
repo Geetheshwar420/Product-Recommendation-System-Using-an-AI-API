@@ -15,7 +15,7 @@ export default function ProductCard({ product, highlighted }) {
           <div className="text-sm text-yellow-500">⭐ {product.rating}</div>
         </div>
         <div className="mt-3">
-          <button className="w-full px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-smooth">View</button>
+          <button onClick={() => window.open(`https://www.google.com/search?q=${encodeURIComponent(product.name)}`, '_blank')} className="w-full px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-smooth">View</button>
         </div>
       </div>
     </div>
